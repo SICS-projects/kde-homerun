@@ -1,0 +1,136 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'homerunvieweradaptor.h'
+**
+** Created: Sun Oct 27 15:10:26 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "homerunvieweradaptor.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'homerunvieweradaptor.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_HomerunViewerAdaptor[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       2,   14, // classinfo
+       3,   18, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // classinfo: key, value
+      43,   21,
+     798,   59,
+
+ // signals: signature, parameters, type, tag, flags
+     843,  819,  818,  818, 0x05,
+     870,  819,  818,  818, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     994,  895,  818,  818, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_HomerunViewerAdaptor[] = {
+    "HomerunViewerAdaptor\0org.kde.homerunViewer\0"
+    "D-Bus Interface\0"
+    "  <interface name=\"org.kde.homerunViewer\">\n    <method name=\"toggl"
+    "e\">\n      <arg direction=\"in\" type=\"i\" name=\"screen\"/>\n      "
+    "<arg direction=\"in\" type=\"u\" name=\"appletContainmentId\"/>\n     "
+    " <arg direction=\"in\" type=\"b\" name=\"appletContainmentMutable\"/>\n"
+    "      <arg direction=\"in\" type=\"u\" name=\"desktopContainmentId\"/>"
+    "\n      <arg direction=\"in\" type=\"b\" name=\"desktopContainmentMuta"
+    "ble\"/>\n    </method>\n    <signal name=\"addToPanel\">\n      <arg d"
+    "irection=\"out\" type=\"u\" name=\"containmentId\"/>\n      <arg direc"
+    "tion=\"out\" type=\"s\" name=\"storageId\"/>\n    </signal>\n    <sign"
+    "al name=\"addToDesktop\">\n      <arg direction=\"out\" type=\"u\" nam"
+    "e=\"containmentId\"/>\n      <arg direction=\"out\" type=\"s\" name=\""
+    "storageId\"/>\n    </signal>\n  </interface>\n\0"
+    "D-Bus Introspection\0\0containmentId,storageId\0"
+    "addToDesktop(uint,QString)\0"
+    "addToPanel(uint,QString)\0"
+    "screen,appletContainmentId,appletContainmentMutable,desktopContainment"
+    "Id,desktopContainmentMutable\0"
+    "toggle(int,uint,bool,uint,bool)\0"
+};
+
+void HomerunViewerAdaptor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        HomerunViewerAdaptor *_t = static_cast<HomerunViewerAdaptor *>(_o);
+        switch (_id) {
+        case 0: _t->addToDesktop((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 1: _t->addToPanel((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 2: _t->toggle((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< uint(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3])),(*reinterpret_cast< uint(*)>(_a[4])),(*reinterpret_cast< bool(*)>(_a[5]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData HomerunViewerAdaptor::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject HomerunViewerAdaptor::staticMetaObject = {
+    { &QDBusAbstractAdaptor::staticMetaObject, qt_meta_stringdata_HomerunViewerAdaptor,
+      qt_meta_data_HomerunViewerAdaptor, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &HomerunViewerAdaptor::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *HomerunViewerAdaptor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *HomerunViewerAdaptor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_HomerunViewerAdaptor))
+        return static_cast<void*>(const_cast< HomerunViewerAdaptor*>(this));
+    return QDBusAbstractAdaptor::qt_metacast(_clname);
+}
+
+int HomerunViewerAdaptor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractAdaptor::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void HomerunViewerAdaptor::addToDesktop(uint _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void HomerunViewerAdaptor::addToPanel(uint _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+QT_END_MOC_NAMESPACE

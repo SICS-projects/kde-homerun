@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="lib" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\components\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\automoc4\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\kde4\;CMake Files\..\..\..\..\usr\share\kde4\apps\;CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\;CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\;CMake Files\fixes\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\lib\;CMake Files\applet\;CMake Files\shell\;CMake Files\tests\;CMake Files\tests\auto\;CMake Files\icons\;CMake Files\package\;CMake Files\plugins\;CMake Files\plugins\recentdocuments\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/lib" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dox">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/lib" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 dox" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerun">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/libhomerun.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 homerun" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerun/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/libhomerun.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 homerun/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerun_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/lib" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 homerun_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/abstractsource.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/actionlist.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/pathmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/sourceconfigurationwidget.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/abstractsource.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/actionlist.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/pathmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/sourceconfigurationwidget.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/homerun_config.h.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\components\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\components\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/Automoc4Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/Automoc4Version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/cmake/KDE4Workspace/KDE4WorkspaceConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/cmake/KDE4Workspace/KDE4WorkspaceConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/cmake/KDE4Workspace/KDE4WorkspaceLibraryTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/cmake/KDE4Workspace/KDE4WorkspaceLibraryTargets-debian.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindKDE4Internal.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroEnsureVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindQt4.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroPushRequiredVars.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/Qt4Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/Qt4ConfigDependentSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindX11.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindAutomoc4.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroLibrary.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroOptionalFindPackage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroOptionalAddSubdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroAdditionalCleanFiles.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroAddCompileFlags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroAddLinkFlags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroAppendIf.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroEnsureOutOfSourceBuild.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroBoolTo01.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroPushRequiredVars.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroLogFeature.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroWriteBasicCMakeVersionFile.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibsDependencies.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDEPlatformProfile.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets-debian.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibs4LibraryTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibs4LibraryTargets-debian.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindPhonon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDE4Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/kde4_cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDE4Defaults.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindKDE4Workspace.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindLibKonq.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/BasicFindPackageVersion.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/BasicFindPackageVersion.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/fixes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\fixes\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/fixes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\fixes\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/cmake/modules/FindKDeclarative.cmake">
+          <Option virtualFolder="CMake Files\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/libhomerun_config.h.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/Doxyfile.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/HomerunConfig.cmake.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/libhomerun_config.h.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/Doxyfile.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/HomerunConfig.cmake.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\applet\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/plasma-applet-homerunlauncher.desktop.cmake">
+          <Option virtualFolder="CMake Files\applet\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\applet\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/plasma-applet-homerunlauncher.desktop.cmake">
+          <Option virtualFolder="CMake Files\applet\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/shell/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\shell\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\auto\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/icons/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\icons\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/package/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\package\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/package/metadata.desktop.cmake">
+          <Option virtualFolder="CMake Files\package\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/plugins/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\plugins\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/plugins/recentdocuments/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\plugins\recentdocuments\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/plugins/recentdocuments/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\plugins\recentdocuments\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

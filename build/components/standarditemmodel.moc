@@ -1,0 +1,147 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'standarditemmodel.h'
+**
+** Created: Sun Oct 27 15:10:47 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../components/standarditemmodel.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'standarditemmodel.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Homerun__StandardItemModel[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       3,   14, // methods
+       2,   29, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      28,   27,   27,   27, 0x05,
+      43,   27,   27,   27, 0x05,
+
+ // methods: signature, parameters, type, tag, flags
+      90,   62,   57,   27, 0x02,
+
+ // properties: name, type, flags
+     128,  120, 0x0a495001,
+     137,  133, 0x02495001,
+
+ // properties: notify_signal_id
+       1,
+       0,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Homerun__StandardItemModel[] = {
+    "Homerun::StandardItemModel\0\0countChanged()\0"
+    "nameChanged()\0bool\0row,actionId,actionArgument\0"
+    "trigger(int,QString,QVariant)\0QString\0"
+    "name\0int\0count\0"
+};
+
+void Homerun::StandardItemModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        StandardItemModel *_t = static_cast<StandardItemModel *>(_o);
+        switch (_id) {
+        case 0: _t->countChanged(); break;
+        case 1: _t->nameChanged(); break;
+        case 2: { bool _r = _t->trigger((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QVariant(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Homerun::StandardItemModel::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Homerun::StandardItemModel::staticMetaObject = {
+    { &QStandardItemModel::staticMetaObject, qt_meta_stringdata_Homerun__StandardItemModel,
+      qt_meta_data_Homerun__StandardItemModel, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Homerun::StandardItemModel::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Homerun::StandardItemModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Homerun::StandardItemModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Homerun__StandardItemModel))
+        return static_cast<void*>(const_cast< StandardItemModel*>(this));
+    return QStandardItemModel::qt_metacast(_clname);
+}
+
+int Homerun::StandardItemModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QStandardItemModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    }
+#ifndef QT_NO_PROPERTIES
+      else if (_c == QMetaObject::ReadProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QString*>(_v) = name(); break;
+        case 1: *reinterpret_cast< int*>(_v) = count(); break;
+        }
+        _id -= 2;
+    } else if (_c == QMetaObject::WriteProperty) {
+        _id -= 2;
+    } else if (_c == QMetaObject::ResetProperty) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 2;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void Homerun::StandardItemModel::countChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void Homerun::StandardItemModel::nameChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+QT_END_MOC_NAMESPACE

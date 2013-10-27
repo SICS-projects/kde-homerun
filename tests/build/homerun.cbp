@@ -1,0 +1,2057 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="homerun" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\components\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\automoc4\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\kde4\;CMake Files\..\..\..\..\usr\share\kde4\apps\;CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\;CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\;CMake Files\fixes\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\lib\;CMake Files\applet\;CMake Files\shell\;CMake Files\tests\;CMake Files\tests\auto\;CMake Files\icons\;CMake Files\package\;CMake Files\plugins\;CMake Files\plugins\recentdocuments\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/development/kde-homerun/1.1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/development/kde-homerun/1.1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/development/kde-homerun/1.1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/development/kde-homerun/1.1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/development/kde-homerun/1.1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/development/kde-homerun/1.1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="/home/development/kde-homerun/1.1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uninstall">
+         <Option working_dir="/home/development/kde-homerun/1.1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 uninstall" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dox">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/lib" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 dox" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerun">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/libhomerun.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 homerun" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerun/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/libhomerun.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 homerun/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerun_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/lib" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 homerun_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="plasma_applet_homerunlauncher">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/plasma_applet_homerunlauncher.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/applet" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/applet" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/applet" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 plasma_applet_homerunlauncher" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="plasma_applet_homerunlauncher/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/plasma_applet_homerunlauncher.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/applet" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/applet" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/applet" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 plasma_applet_homerunlauncher/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="plasma_applet_homerunlauncher_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/applet" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 plasma_applet_homerunlauncher_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/applet/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerunviewer">
+         <Option output="/home/development/kde-homerun/1.1/build/shell/homerunviewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/shell" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/shell" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 homerunviewer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerunviewer/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/shell/homerunviewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/shell" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/shell" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 homerunviewer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerunviewer_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/shell" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 homerunviewer_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/shell/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="componentsplugin">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/libcomponentsplugin.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/components" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/components" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/installedapps" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/power" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/runners" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/session" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 componentsplugin" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="componentsplugin/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/libcomponentsplugin.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/components" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/components" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/installedapps" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/power" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/runners" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/session" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 componentsplugin/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="componentsplugin_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/components" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 componentsplugin_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/components/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fixesplugin">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/libfixesplugin.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/fixes" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/fixes" />
+            <Add directory="/home/development/kde-homerun/1.1/fixes" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 fixesplugin" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fixesplugin/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/libfixesplugin.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/fixes" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/fixes" />
+            <Add directory="/home/development/kde-homerun/1.1/fixes" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 fixesplugin/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fixesplugin_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/fixes" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 fixesplugin_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/fixes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="buildtests">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/tests/auto" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 buildtests" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="check">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/tests/auto" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 check" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dirmodeltest_x11">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/dirmodeltest_x11" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 dirmodeltest_x11" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dirmodeltest_x11/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/dirmodeltest_x11" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 dirmodeltest_x11/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dirmodeltest_x11_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/tests/auto" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 dirmodeltest_x11_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="favoriteappsmodeltest_x11">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/favoriteappsmodeltest_x11" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 favoriteappsmodeltest_x11" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="favoriteappsmodeltest_x11/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/favoriteappsmodeltest_x11" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 favoriteappsmodeltest_x11/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="favoriteappsmodeltest_x11_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/tests/auto" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 favoriteappsmodeltest_x11_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="favoriteplacesmodeltest_x11">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/favoriteplacesmodeltest_x11" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 favoriteplacesmodeltest_x11" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="favoriteplacesmodeltest_x11/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/favoriteplacesmodeltest_x11" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 favoriteplacesmodeltest_x11/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="favoriteplacesmodeltest_x11_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/tests/auto" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 favoriteplacesmodeltest_x11_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="i18nconfigtest">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/i18nconfigtest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 i18nconfigtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="i18nconfigtest/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/i18nconfigtest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 i18nconfigtest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="i18nconfigtest_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/tests/auto" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 i18nconfigtest_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sourcemodeltest">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/sourcemodeltest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 sourcemodeltest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sourcemodeltest/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/sourcemodeltest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 sourcemodeltest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sourcemodeltest_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/tests/auto" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 sourcemodeltest_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tabmodeltest">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/tabmodeltest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 tabmodeltest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tabmodeltest/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/tests/auto/tabmodeltest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/build/tests/auto" />
+            <Add directory="/home/development/kde-homerun/1.1/components" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/dir" />
+            <Add directory="/home/development/kde-homerun/1.1/components/sources/favorites" />
+            <Add directory="/home/development/kde-homerun/1.1/internal" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/tests/auto" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 tabmodeltest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tabmodeltest_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/tests/auto" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 tabmodeltest_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/tests/auto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerun_source_recentdocuments">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/homerun_source_recentdocuments.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/plugins/recentdocuments" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/plugins/recentdocuments" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/plugins/recentdocuments" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 homerun_source_recentdocuments" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerun_source_recentdocuments/fast">
+         <Option output="/home/development/kde-homerun/1.1/build/lib/homerun_source_recentdocuments.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/development/kde-homerun/1.1/build/plugins/recentdocuments" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_XOPEN_SOURCE=500" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-DQT_NO_STL" />
+            <Add option="-DQT_NO_CAST_TO_ASCII" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DKDE_DEPRECATED_WARNINGS" />
+            <Add option="-DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=29" />
+            <Add option="-DQT_USE_FAST_CONCATENATION" />
+            <Add option="-DQT_USE_FAST_OPERATOR_PLUS" />
+            <Add directory="/home/development/kde-homerun/1.1" />
+            <Add directory="/home/development/kde-homerun/1.1/build" />
+            <Add directory="/home/development/kde-homerun/1.1/build/plugins/recentdocuments" />
+            <Add directory="/home/development/kde-homerun/1.1/lib" />
+            <Add directory="/home/development/kde-homerun/1.1/plugins/recentdocuments" />
+            <Add directory="/usr/include/KDE" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/qt4/phonon" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 homerun_source_recentdocuments/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="homerun_source_recentdocuments_automoc">
+         <Option working_dir="/home/development/kde-homerun/1.1/build/plugins/recentdocuments" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 homerun_source_recentdocuments_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/development/kde-homerun/1.1/build/plugins/recentdocuments/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/configmanager.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/homerunlauncher.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/abstractsourceregistry.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/action.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/actionmanager.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/componentsplugin.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/globalsettings.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/helpmenuactions.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/icondialog.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/image.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/messagebox.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/shadoweffect.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sourceconfigurationdialog.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sourcemodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sourceregistry.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/dir/dirconfigurationwidget.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/dir/dirmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/favoriteappsmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/favoriteplacesmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/favoriteutils.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/fileplacesmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/kfileplacesitem.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/kfileplacessharedbookmarks.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/changenotifier.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/filterableinstalledappsmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/groupedinstalledappsmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/installedappsconfigurationwidget.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/installedappsmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/power/powermodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/runners/querymatchmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/runners/runnerconfigurationwidget.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/runners/runnermodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/runners/singlerunnermodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/session/openedsessionsmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/session/sessionmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/session/sessionswatcher.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/standarditemmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/tabmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/fixes/datamodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/fixes/fixesplugin.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/internal/aboutdata.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/abstractsource.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/actionlist.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/pathmodel.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/sourceconfigurationwidget.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/plugins/recentdocuments/recentdocuments.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/shell/fullview.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/shell/main.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/dirmodeltest.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/favoriteappsmodeltest.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/favoriteplacesmodeltest.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/i18nconfigtest.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/sourcemodeltest.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/tabmodeltest.cpp">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/configmanager.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/generalconfigpage.ui">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/homerunlauncher.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/abstractsourceregistry.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/action.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/actionmanager.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/componentsplugin.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/globalsettings.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/helpmenuactions.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/icondialog.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/image.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/messagebox.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/shadoweffect.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sourceconfigurationdialog.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sourcemodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sourceregistry.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/dir/dirconfigurationwidget.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/dir/dirconfigurationwidget.ui">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/dir/dirmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/favoriteappsmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/favoriteplacesmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/favoriteutils.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/favorites/fileplacesmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/changenotifier.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/filterableinstalledappsmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/groupedinstalledappsmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/installedappsconfigurationwidget.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/installedappsconfigurationwidget.ui">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/installedapps/installedappsmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/power/powermodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/runners/querymatchmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/runners/runnerconfigurationwidget.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/runners/runnerconfigurationwidget.ui">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/runners/runnermodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/runners/singlerunnermodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/session/openedsessionsmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/session/sessionmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/sources/session/sessionswatcher.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/standarditemmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/tabmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/fixes/datamodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/fixes/fixesplugin.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/internal/aboutdata.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/abstractsource.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/actionlist.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/pathmodel.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/sourceconfigurationwidget.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/plugins/recentdocuments/recentdocuments.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/shell/fullview.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/dirmodeltest.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/favoriteappsmodeltest.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/favoriteplacesmodeltest.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/i18nconfigtest.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/sourcemodeltest.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/tabmodeltest.h">
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/homerun_config.h.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\components\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/components/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\components\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/Automoc4Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/Automoc4Version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/automoc4/automoc4.files.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\automoc4\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/cmake/KDE4Workspace/KDE4WorkspaceConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/cmake/KDE4Workspace/KDE4WorkspaceConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/cmake/KDE4Workspace/KDE4WorkspaceLibraryTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/lib/cmake/KDE4Workspace/KDE4WorkspaceLibraryTargets-debian.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\KDE4Workspace\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindKDE4Internal.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroEnsureVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindQt4.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroPushRequiredVars.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/Qt4Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/Qt4ConfigDependentSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindX11.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindAutomoc4.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroLibrary.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroOptionalFindPackage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroOptionalAddSubdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroAdditionalCleanFiles.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroAddCompileFlags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroAddLinkFlags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroAppendIf.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroEnsureOutOfSourceBuild.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroBoolTo01.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroPushRequiredVars.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroLogFeature.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/MacroWriteBasicCMakeVersionFile.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibsDependencies.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDEPlatformProfile.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibs4ToolsTargets-debian.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibs4LibraryTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDELibs4LibraryTargets-debian.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindPhonon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDE4Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/kde4_cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/KDE4Defaults.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindKDE4Workspace.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/FindLibKonq.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/BasicFindPackageVersion.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/../../../../usr/share/kde4/apps/cmake/modules/BasicFindPackageVersion.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\kde4\apps\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/fixes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\fixes\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/fixes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\fixes\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/cmake/modules/FindKDeclarative.cmake">
+          <Option virtualFolder="CMake Files\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/libhomerun_config.h.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/Doxyfile.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/HomerunConfig.cmake.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/libhomerun_config.h.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/Doxyfile.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/lib/HomerunConfig.cmake.in">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\applet\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/plasma-applet-homerunlauncher.desktop.cmake">
+          <Option virtualFolder="CMake Files\applet\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\applet\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/applet/plasma-applet-homerunlauncher.desktop.cmake">
+          <Option virtualFolder="CMake Files\applet\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/shell/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\shell\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/tests/auto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\auto\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/icons/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\icons\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/package/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\package\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/package/metadata.desktop.cmake">
+          <Option virtualFolder="CMake Files\package\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/plugins/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\plugins\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/plugins/recentdocuments/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\plugins\recentdocuments\" />
+      </Unit>
+      <Unit filename="/home/development/kde-homerun/1.1/plugins/recentdocuments/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\plugins\recentdocuments\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
