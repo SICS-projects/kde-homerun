@@ -159,7 +159,7 @@ void FullView::toggle(int screen, uint appletContainmentId, bool appletContainme
         if(screen < 0) {
             screen = w.screenNumber(QCursor::pos());
         }
-        QRect rect = QRect( 0, 550, 1000, 600 );//w.availableGeometry(screen);
+        QRect rect = w.availableGeometry(screen);
         setGeometry(rect);
         show();
         KWindowSystem::forceActiveWindow(winId());

@@ -267,8 +267,10 @@ Item {
     PlasmaComponents.ToolButton {
         id: configButton
         anchors {
-            right: sizeButton.left
-            
+            right: parent.right
+            top: tabBar.top
+            bottom: tabBar.bottom
+            rightMargin: main.outerPadding
         }
         iconSource: "applications-system"
 
@@ -345,42 +347,7 @@ Item {
             id: messageBox
         }
     }
-    
-     // Size Button
-    PlasmaComponents.ToolButton {
-        id: sizeButton
-        anchors {
-            right: closeButton.left
-            top: tabBar.top
-            bottom: tabBar.bottom
-            left: configButton.right
-        }
-        iconSource: "applications-size"
 
-        property QtObject menu
-
-        onClicked: {
-                 main.closeRequested();
-        }
-    }
-
-    // Close Button
-    PlasmaComponents.ToolButton {
-        id: closeButton
-        anchors {
-            right: parent.right
-            top: tabBar.top
-            bottom: tabBar.bottom
-            rightMargin: main.outerPadding
-        }
-        iconSource: "application-exit"
-
-        property QtObject menu
-
-        onClicked: {
-                main.closeRequested();
-        }
-    }
     // Main content
     Item {
         id: content
