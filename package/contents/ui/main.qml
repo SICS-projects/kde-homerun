@@ -271,7 +271,7 @@ Item {
             top: tabBar.top
             bottom: tabBar.bottom
             //rightMargin: main.outerPadding
-            
+        
         }
         iconSource: "applications-system"
 
@@ -356,7 +356,6 @@ Item {
             right: closeButton.left
             top: tabBar.top
             bottom: tabBar.bottom
-            //left: configButton.right
         }
         iconSource: "applications-size"
 
