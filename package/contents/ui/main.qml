@@ -28,12 +28,17 @@ import org.kde.homerun.fixes 0.1 as HomerunFixes
 Item {
     id: main
     signal closeRequested
+    signal sizeChangeToSmallRequested
+    signal sizeChangeToBigRequested
+    
     property QtObject configureAction
     property bool isContainment
 
     property string configFileName
 
     property alias currentTabContent: tabGroup.currentTab
+    
+    property bool bigSize: false;
 
     property bool configureMode: false
     property bool showActionListOverlay: globalSettings.showActionListOverlay
@@ -70,6 +75,8 @@ Item {
             configureMode: main.configureMode
             showActionListOverlay: main.showActionListOverlay
             onCloseRequested: isContainment ? reset() : main.closeRequested()
+	    //onSizeChangeToBigRequested: main.sizeChangeToBigRequested()
+	    //onSizeChangeRequested: main.sizeChangeRequested()
             onSetSearchFieldRequested: searchField.text = text
             onTabTextChanged: {
                 if (configureMode) {
@@ -360,9 +367,18 @@ Item {
         iconSource: "applications-size"
 
         property QtObject menu
+        //property QRect rect
 
         onClicked: {
-                 main.closeRequested();
+                //rect = new QRect(50,50,500,500);//w.availableGeometry(screen);
+		//parent.setGeometry(rect);
+		//parent.show();
+	  if (main.bigSize){
+	      main.sizeChangeToBigRequested();
+	  }else{
+	      main.sizeChangeToSmallRequested();
+	  }
+	  main.bigSize= !main.bigSize;
         }
     }
 

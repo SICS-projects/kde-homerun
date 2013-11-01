@@ -103,7 +103,9 @@ bool FullView::init(QString *errorMessage)
     }
 
     connect(rootObject(), SIGNAL(closeRequested()), SLOT(hide()));
-
+    connect(rootObject(), SIGNAL(sizeChangeToSmallRequested()), SLOT(sizeChangeToSmall()));
+    connect(rootObject(), SIGNAL(sizeChangeToBigRequested()), SLOT(sizeChangeToBig()));
+    
     setupBackground();
 
     KCmdLineArgs *args = KCmdLineArgs::parsedArgs();
@@ -115,6 +117,21 @@ bool FullView::init(QString *errorMessage)
     }
 
     return true;
+}
+
+void FullView::sizeChangeToSmall(){
+    QRect* rect = new QRect(0,0,500,500);//w.availableGeometry(screen);
+    setGeometry(*rect);
+    show();
+}
+
+void FullView::sizeChangeToBig(){
+    QDesktopWidget w;
+    screen = w.screenNumber(QCursor::pos());
+
+    QRect rect = w.availableGeometry(screen);
+    setGeometry(rect);
+    show();
 }
 
 void FullView::setupBackground()

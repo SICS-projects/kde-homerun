@@ -54,8 +54,10 @@ public Q_SLOTS:
      * If it is visible, then hide the view.
      */
     void toggle(int screen, uint appletContainmentId, bool appletContainmentMutable,
-        int desktopContainmentId, bool desktopContainmentMutable);
+    int desktopContainmentId, bool desktopContainmentMutable);
     void updateGeometry();
+    void sizeChangeToSmall();
+    void sizeChangeToBig();
 
 protected:
     virtual void focusOutEvent(QFocusEvent *event);
@@ -75,6 +77,7 @@ private:
     QGraphicsItem *m_lastFocusedItem;
 
     bool m_plainWindow;
+    int screen;
 };
 
 #endif
