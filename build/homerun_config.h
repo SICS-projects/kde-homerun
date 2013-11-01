@@ -1,1 +1,0 @@
-#define HOMERUN_VERSION "1.1.0"
