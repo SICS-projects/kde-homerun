@@ -3,6 +3,7 @@
  * Copyright 2007 Aaron Seigo <aseigo@kde.org>
  * Copyright 2008 Aleix Pol <aleixpol@gmail.com>
  * Copyright (C) 2012 Shaun Reich <shaun.reich@blue-systems.com>
+ * Copyright (C) 2013 Joachim Gugenberger <jgugenberger@gmail.com>
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
