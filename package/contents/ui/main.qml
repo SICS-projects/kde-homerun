@@ -38,7 +38,7 @@ Item {
 
     property alias currentTabContent: tabGroup.currentTab
     
-    property bool bigSize: false;
+    property bool bigSize: true;
 
     property bool configureMode: false
     property bool showActionListOverlay: globalSettings.showActionListOverlay

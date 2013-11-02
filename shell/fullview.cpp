@@ -120,16 +120,18 @@ bool FullView::init(QString *errorMessage)
 }
 
 void FullView::sizeChangeToSmall(){
-    QRect* rect = new QRect(0,0,500,500);//w.availableGeometry(screen);
+    QRect rect_fullsize = getMonitorAvailableGeometry();
+    QRect* rect = new QRect(0,0, (rect_fullsize.width()/3)*2, (rect_fullsize.height()/3)*2);//w.availableGeometry(screen);
     setGeometry(*rect);
     show();
 }
 
 void FullView::sizeChangeToBig(){
-    QDesktopWidget w;
-    screen = w.screenNumber(QCursor::pos());
+    //QDesktopWidget w;
+    //screen = w.screenNumber(QCursor::pos());
 
-    QRect rect = w.availableGeometry(screen);
+    //QRect rect = w.availableGeometry(screen);
+    QRect rect = getMonitorAvailableGeometry();
     setGeometry(rect);
     show();
 }
@@ -138,6 +140,12 @@ void FullView::setupBackground()
 {
     m_backgroundSvg->setImagePath("dialogs/background");
     m_backgroundSvg->setEnabledBorders(Plasma::FrameSvg::NoBorder);
+}
+
+QRect FullView::getMonitorAvailableGeometry(){
+    QDesktopWidget w;
+    screen = w.screenNumber(QCursor::pos());
+    return  w.availableGeometry(screen);    
 }
 
 void FullView::setConfigFileName(const QString &name)
@@ -172,13 +180,16 @@ void FullView::toggle(int screen, uint appletContainmentId, bool appletContainme
         // login. See https://bugs.kde.org/show_bug.cgi?id=312993
         KWindowSystem::setOnDesktop(winId(), KWindowSystem::currentDesktop());
 
-        QDesktopWidget w;
-        if(screen < 0) {
-            screen = w.screenNumber(QCursor::pos());
-        }
-        QRect rect = w.availableGeometry(screen);
-        setGeometry(rect);
-        show();
+        //QDesktopWidget w;
+        //if(screen < 0) {
+          //  screen = w.screenNumber(QCursor::pos());
+        //}
+        //QRect rect = w.availableGeometry(screen);
+        //setGeometry(rect);
+        //show();
+        
+        sizeChangeToSmall();
+        
         KWindowSystem::forceActiveWindow(winId());
 
         qApp->setProperty("appletContainmentId", appletContainmentId);

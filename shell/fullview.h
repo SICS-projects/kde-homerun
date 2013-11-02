@@ -70,6 +70,7 @@ private Q_SLOTS:
 
 private:
     void setupBackground();
+    QRect getMonitorAvailableGeometry();
     void resetAndHide();
 
     Plasma::FrameSvg *m_backgroundSvg;
