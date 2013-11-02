@@ -4,7 +4,8 @@
 
 Homerun is a KDE application launcher and document opener.
 
-It is a fullscreen launcher with content organized in tabs. A tab is made of
+It allowes you to change its size from fullscreen to smallscreen(2/3 screen).
+The content is organized in tabs. A tab is made of
 several "sources". A source can provide one or more sections to a tab. Homerun
 comes with a few built-in sources, but custom sources can be written using
 libhomerun.
