@@ -56,6 +56,8 @@ FullView::FullView()
 , m_lastFocusedItem(0)
 , m_plainWindow(false)
 {
+    this->directory = directory;
+    
     KCmdLineArgs *args = KCmdLineArgs::parsedArgs();
     m_plainWindow = args->isSet("plain-window");
 
@@ -122,7 +124,7 @@ bool FullView::init(QString *errorMessage)
 
 void FullView::sizeChangeToSmall(){
     QRect rect_fullsize = getMonitorAvailableGeometry();
-    QRect* rect = new QRect(0,0, (rect_fullsize.width()/3)*2, (rect_fullsize.height()/3)*2);//w.availableGeometry(screen);
+    QRect* rect = new QRect(qApp->property("posx").toInt(), 0, (rect_fullsize.width()/3)*2, (rect_fullsize.height()/3)*2);//w.availableGeometry(screen);
     setGeometry(*rect);
     show();
 }
@@ -166,9 +168,12 @@ FullView::~FullView()
 {
 }
 
-void FullView::toggle(int screen, uint appletContainmentId, bool appletContainmentMutable,
+void FullView::toggle(int posx, uint appletContainmentId, bool appletContainmentMutable,
     int desktopContainmentId, bool desktopContainmentMutable)
 {
+   
+   // *this->posy = posy;
+    
     if (isVisible()) {
         resetAndHide();
     } else {
@@ -189,14 +194,20 @@ void FullView::toggle(int screen, uint appletContainmentId, bool appletContainme
         //setGeometry(rect);
         //show();
         
-        sizeChangeToSmall();
         
-        KWindowSystem::forceActiveWindow(winId());
 
         qApp->setProperty("appletContainmentId", appletContainmentId);
         qApp->setProperty("appletContainmentMutable", appletContainmentMutable);
         qApp->setProperty("desktopContainmentId", desktopContainmentId);
         qApp->setProperty("desktopContainmentMutable", desktopContainmentMutable);
+	
+	qApp->setProperty("posx", posx);
+       // qApp->setProperty("posy", posy);
+	
+	 //*this->pos = pos;
+	sizeChangeToSmall();
+        
+        KWindowSystem::forceActiveWindow(winId());
     }
 }
 

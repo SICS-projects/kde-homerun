@@ -2,7 +2,8 @@
  *   Copyright (C) 2012 by Shaun Reich <shaun.reich@blue-systems.com>      *
  *   Copyright (C) 2013 by Eike Hein <hein@kde.org>                        *
  *   Copyright 2007 Robert Knight <robertknight@gmail.com>                 *
- *   Copyright 2007 Kevin Ottens <ervin@kde.org>                           *
+ *   Copyright 2007 Kevin Ottens <ervin@kde.org> 			   *
+ *   Copyright 2013 Joachim Gugenberger <jgugenberger@gmail.com> 	   *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -111,7 +112,8 @@ void HomerunLauncher::toggle()
 
     QDBusConnection bus = QDBusConnection::sessionBus();
     QDBusInterface interface("org.kde.homerunViewer", "/HomerunViewer", "org.kde.homerunViewer", bus);
-    interface.asyncCall("toggle", containment()->screen(), appletContainmentId, appletContainmentMutable,
+    
+    interface.asyncCall("toggle", containment()->geometry().x(), appletContainmentId, appletContainmentMutable,
         desktopContainmentId, desktopContainmentMutable);
 }
 

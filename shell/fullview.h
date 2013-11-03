@@ -53,7 +53,7 @@ public Q_SLOTS:
      * 
      * If it is visible, then hide the view.
      */
-    void toggle(int screen, uint appletContainmentId, bool appletContainmentMutable,
+    void toggle(int posx, uint appletContainmentId, bool appletContainmentMutable,
     int desktopContainmentId, bool desktopContainmentMutable);
     void updateGeometry();
     void sizeChangeToSmall();
@@ -79,6 +79,8 @@ private:
 
     bool m_plainWindow;
     int screen;
+    
+    char directory; 
 };
 
 #endif
